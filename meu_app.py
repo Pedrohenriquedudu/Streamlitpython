@@ -15,6 +15,24 @@ with st.container():
     st.markdown(''' 
 Repositorios IOS >>>
 ''') 
-    binary_contents = b'c1100-universalk9_ias.16.09.06.SPA.bin'
-# Defaults to 'application/octet-stream'
-st.download_button('Download c1100-universalk9_ias.16.09.06.SPA.bin', binary_contents)
+    data_df = pd.DataFrame(
+    {
+        "apps": [
+            "https://telefonicacorp-my.sharepoint.com/:u:/g/personal/pedro_hmartins_telefonica_com/Eex-alB13eZDhE_odVT2H2sBrE-6IfhAYDkQGTbEV0cp9Q?e=tBnO19",
+            
+        ],
+    }
+)
+
+st.data_editor(
+    data_df,
+    column_config={
+        "apps": st.column_config.LinkColumn(
+            "Trending apps",
+            help="The top trending Streamlit apps",
+            validate="^https://[a-z]+\.streamlit\.app$",
+            max_chars=100,
+        )
+    },
+    hide_index=True,
+)
