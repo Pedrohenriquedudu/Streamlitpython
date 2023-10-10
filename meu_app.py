@@ -1,10 +1,8 @@
 import streamlit as st
 import pandas as pd
 
-st.title("Suporte a campo SPI Dados B2B :sunglasses:")
-
 with st.container():
-    st.title("Suporte a campo SPI Dados B2B")
+    st.title("Suporte a campo SPI Dados B2B :sunglasses:")
     st.markdown(''' 
 Formulários para gerar Scripts:
 ''')   
