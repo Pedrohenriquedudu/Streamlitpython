@@ -1,5 +1,6 @@
 import streamlit as st
 import pandas as pd
+import time
 
 with st.container():
     st.title("Suporte a campo SPI Dados B2B :sunglasses:")
