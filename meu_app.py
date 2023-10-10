@@ -13,4 +13,4 @@ with st.container():
     st.markdown(''' 
 Firmware e IOS: :point_down:
 ''') 
-st.link_button("Repositórios IOS","https://drive.google.com/drive/folders/1lU9-1yEFGuEQIt5FtHuAM9VQjJXhhERY?usp=drive_link")
+st.link_button("Repositórios IOS","https://drive.google.com/drive/folders/1lU9-1yEFGuEQIt5FtHuAM9VQjJXhhERY?usp=sharing")
