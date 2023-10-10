@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="SITE APOIO GTD DADOS B2B")
+st.title("Suporte a campo SPI Dados B2B :sunglasses:")
 
 with st.container():
     st.title("Suporte a campo SPI Dados B2B")
