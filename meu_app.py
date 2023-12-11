@@ -41,7 +41,7 @@ CONSULTA CODIGOS: :point_down:
         st.write("Instrução de Trabalho ESSE :book:")
         with st.spinner("Loading..."):
             time.sleep(3)
-        st.link_button("Downloads", "https://drive.google.com/drive/folders/1dvHJka8s_3Pdtzif6ZLEgrG4pWBB46qn?usp=sharing")
+        st.link_button("Downloads", "https://drive.google.com/file/d/1utRUjjDKYST3wYd6E5BaD3XKYysge29T/view?usp=drive_link")
 
 # Verifique o estado de autenticação
 is_authenticated = False
