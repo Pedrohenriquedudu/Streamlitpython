@@ -33,7 +33,7 @@ Formulários para gerar CARIMBOS:
                  st.markdown(''' 
 CONSULTA CODIGOS: :point_down:
 ''') 
-    st.link_button("CODIGOS REMEDY","https://drive.google.com/drive/folders/1lU9-1yEFGuEQIt5FtHuAM9VQjJXhhERY?usp=drive_link")
+    st.link_button("CODIGOS REMEDY","https://docs.google.com/document/d/1pUbdXcrXbND1yGss9p3s9uLjctUPSPy5/edit?usp=drive_link&ouid=115435742445522021005&rtpof=true&sd=true")
 
 # Confwith st.sidebar:
     with st.sidebar:
