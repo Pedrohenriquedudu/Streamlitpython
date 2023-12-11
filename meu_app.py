@@ -26,9 +26,9 @@ def pagina_protegida():
     st.markdown(''' 
 Formulários para gerar CARIMBOS:
 ''')   
-    st.link_button("CARIMBO PE","https://colab.research.google.com/drive/14aiImv-qA5imtWNJoP9XXvUfuc4E1I0a?usp=sharing")
-    st.link_button("CARIMBO EC", "https://colab.research.google.com/drive/1XXxemoXIcGC72XSWdW4pZd5AtgZYSx-H?usp=sharing")
-    st.link_button("CARIMBO ARKÉ","https://colab.research.google.com/drive/12yVdAx7O-g5K4H_UY5_RApN4o2AIzZ-F?usp=sharing")
+    st.link_button("CARIMBO PE","https://colab.research.google.com/drive/1b8AYzFMYrDKcXX51VAtxUe_hHeVmlRK_?usp=sharing")
+    st.link_button("CARIMBO EC", "https://colab.research.google.com/drive/1b8AYzFMYrDKcXX51VAtxUe_hHeVmlRK_?usp=sharing")
+    st.link_button("CARIMBO ARKÉ","https://colab.research.google.com/drive/1b8AYzFMYrDKcXX51VAtxUe_hHeVmlRK_?usp=sharing")
     with st.container():
                  st.markdown(''' 
 CONSULTA CODIGOS: :point_down:
