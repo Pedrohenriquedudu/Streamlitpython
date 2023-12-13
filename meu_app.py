@@ -33,7 +33,7 @@ Formulários para gerar CARIMBOS:
                  st.markdown(''' 
 CONSULTA CODIGOS: :point_down:
 ''') 
-    st.link_button("CODIGOS REMEDY","https://docs.google.com/document/d/1pUbdXcrXbND1yGss9p3s9uLjctUPSPy5/edit?usp=drive_link&ouid=115435742445522021005&rtpof=true&sd=true")
+    st.link_button("CODIGOS REMEDY","https://docs.google.com/document/d/1pUbdXcrXbND1yGss9p3s9uLjctUPSPy5/edit?usp=sharing&ouid=115435742445522021005&rtpof=true&sd=true")
 
 # Confwith st.sidebar:
     with st.sidebar:
@@ -41,7 +41,7 @@ CONSULTA CODIGOS: :point_down:
         st.write("Instrução de Trabalho ESSE :book:")
         with st.spinner("Loading..."):
             time.sleep(3)
-        st.link_button("Downloads", "https://drive.google.com/file/d/1utRUjjDKYST3wYd6E5BaD3XKYysge29T/view?usp=drive_link")
+        st.link_button("Downloads", "https://drive.google.com/file/d/1utRUjjDKYST3wYd6E5BaD3XKYysge29T/view?usp=sharing")
 
 # Verifique o estado de autenticação
 is_authenticated = False
