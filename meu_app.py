@@ -21,14 +21,17 @@ def login():
 
 # Página protegida
 def pagina_protegida():
-    st.title("Carimbos B2B SPI > EC/PE/ARKÉ :desktop_computer:")
+    st.title("Carimbos ESSE B2B SPI > EC/PE :desktop_computer:")
     
     st.markdown(''' 
 Formulários para gerar CARIMBOS:
 ''')   
-    st.link_button("CARIMBO PE","https://colab.research.google.com/drive/1b8AYzFMYrDKcXX51VAtxUe_hHeVmlRK_?usp=sharing")
-    st.link_button("CARIMBO EC", "https://colab.research.google.com/drive/1b8AYzFMYrDKcXX51VAtxUe_hHeVmlRK_?usp=sharing")
-    st.link_button("CARIMBO ARKÉ","https://colab.research.google.com/drive/1b8AYzFMYrDKcXX51VAtxUe_hHeVmlRK_?usp=sharing")
+    st.link_button("DESLOCAMENTO","https://colab.research.google.com/drive/1b8AYzFMYrDKcXX51VAtxUe_hHeVmlRK_?usp=sharing")
+    st.link_button("ABERTURA DE HORARIO", "https://colab.research.google.com/drive/1b8AYzFMYrDKcXX51VAtxUe_hHeVmlRK_?usp=sharing")
+    st.link_button("NOTIFICAÇÃO","https://colab.research.google.com/drive/1b8AYzFMYrDKcXX51VAtxUe_hHeVmlRK_?usp=sharing")
+    st.link_button("DDR OK","https://colab.research.google.com/drive/1b8AYzFMYrDKcXX51VAtxUe_hHeVmlRK_?usp=sharing")
+    st.link_button("ATIVAÇÃO GPON E ROUTER", "https://colab.research.google.com/drive/1b8AYzFMYrDKcXX51VAtxUe_hHeVmlRK_?usp=sharing")
+    st.link_button("ATIVAÇÃO DSLAN / V35 OK","https://colab.research.google.com/drive/1b8AYzFMYrDKcXX51VAtxUe_hHeVmlRK_?usp=sharing")
     with st.container():
                  st.markdown(''' 
 CONSULTA CODIGOS: :point_down:
