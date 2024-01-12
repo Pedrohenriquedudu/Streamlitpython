@@ -49,7 +49,7 @@ CONSULTAS: :point_down:
                 Deslocamento = st.text_input('Deslocamento:')
                 Técnico = st.text_input('Técnico:')
                 Despacho = st.text_input('Despacho:')
-                if st.button('Enviar'):
+                if st.button('Gerar Carimbo'):
                     st.success('Carimbo Gerado com Sucesso!')
                     exibir_respostas(Deslocamento,Técnico, Despacho)
             def exibir_respostas(Deslocamento, Técnico, Despacho):
@@ -73,7 +73,7 @@ CONSULTAS: :point_down:
                 Tel= st.text_input('Tel:')
                 Observação= st.text_input('Observação:')
                 Despacho = st.text_input('Despacho:')
-                if st.button('Enviar'):
+                if st.button('Gerar Carimbo'):
                     st.success('Carimbo Gerado com Sucesso!')
                     exibir_respostas(Técnico,Telefone,Ciente,Tel,Observação,Despacho)
             def exibir_respostas(Técnico,Telefone,Ciente,Tel,Observação,Despacho):
