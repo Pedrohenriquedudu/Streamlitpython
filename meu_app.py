@@ -48,14 +48,20 @@ CONSULTAS: :point_down:
             def formulario():
                 Deslocamento = st.text_input('Deslocamento:')
                 Técnico = st.text_input('Técnico:')
+                Telefone = st.text_input('Telefone:')
+                RE = st.text_input('RE:')
+                Observação = st.text_input('Observação:')
                 Despacho = st.text_input('Despacho:')
                 if st.button('Gerar Carimbo'):
                     st.success('Carimbo Gerado com Sucesso!')
-                    exibir_respostas(Deslocamento,Técnico, Despacho)
-            def exibir_respostas(Deslocamento, Técnico, Despacho):
+                    exibir_respostas(Deslocamento,Técnico,Telefone,RE,Observação,Despacho)
+            def exibir_respostas(Deslocamento, Técnico,Telefone,RE,Observação,Despacho):
                 st.subheader('Respostas:')
                 st.write(f'Deslocamento: {Deslocamento}')
                 st.write(f'Técnico: {Técnico}')
+                st.write(f'Telefone: {Telefone}')
+                st.write(f'RE: {RE}')
+                st.write(f'Observação: {Observação}')
                 st.write(f'Despacho: {Despacho}')
             if __name__ == '__main__':
                 formulario()
