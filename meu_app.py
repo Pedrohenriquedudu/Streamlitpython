@@ -119,11 +119,54 @@ CONSULTAS: :point_down:
                 st.write(f'Observação: {Observação}')
                 st.write(f'Despacho: {Despacho}')
             if __name__ == '__main__':
+                 formulario()
+
+    class Baixa_DDR:
+        def __init__(self):
+            self.titulo = "BAIXA_DDR"
+
+        def mostrar(self):
+            st.title(self.titulo)
+            # Adicione mais elementos à sua página inicial conforme necessário
+            def formulario():
+                Técnico = st.text_input('Técnico:')
+                Telefone = st.text_input('Telefone:')
+                RE = st.text_input('RE:')
+                Ciente = st.text_input('Ciente:')
+                Tel = st.text_input('Tel:')
+                Modem = st.text_input('Modem:')
+                Serial = st.text_input('Serial:')
+                Testes_certificação = st.text_input('Testes_certificação:')
+                Facilidades = st.text_input('Facilidades:')
+                Teste_R2 = st.text_input('Teste_R2:')
+                Teste_CPA = st.text_input('Teste_CPA:')
+                Observação = st.text_input('Observação:')
+                Analista_ESSE = st.text_input('Analista_ESSE:')
+                if st.button('Gerar Carimbo'):
+                    st.success('Carimbo Gerado com Sucesso!')
+                    exibir_respostas(Técnico,Telefone,RE,Ciente,Tel,Modem,Serial,Testes_certificação,Facilidades,Teste_R2,Teste_CPA,Observação,Analista_ESSE)
+            def exibir_respostas(Técnico,Telefone,RE,Ciente,Tel,Modem,Serial,Testes_certificação,Facilidades,Teste_R2,Teste_CPA,Observação,Analista_ESSE):
+                st.subheader('Respostas:')
+                st.write(f'Técnico: {Técnico}')
+                st.write(f'Telefone: {Telefone}')
+                st.write(f'RE: {RE}')
+                st.write(f'Ciente: {Ciente}')
+                st.write(f'Tel: {Tel}')
+                st.write(f'Modem: {Modem}')
+                st.write(f'Serial: {Serial}')
+                st.write(f'Testes_certificação: {Testes_certificação}')
+                st.write(f'Facilidades: {Facilidades}')
+                st.write(f'Teste_R2: {Teste_R2}')
+                st.write(f'Teste_CPA: {Teste_CPA}')
+                st.write(f'Observação: {Observação}')
+                st.write(f'Analista_ESSE: {Analista_ESSE}')
+            if __name__ == '__main__':
                 formulario()
+
 
     def main():
         st.sidebar.title("Navegação")
-        opcao_pagina = st.sidebar.radio("Escolha um Carimbo", ["Principal","Deslocamento", "Abertura de Horario","Notificação"])
+        opcao_pagina = st.sidebar.radio("Escolha um Carimbo", ["Principal","Deslocamento", "Abertura de Horario","Notificação","Baixa_DDR"])
 
         if opcao_pagina == "Principal":
             pagina =  Principal()
@@ -133,6 +176,8 @@ CONSULTAS: :point_down:
             pagina = AberturadeHorario()
         elif opcao_pagina == "Notificação":
             pagina = Notificação()
+        elif opcao_pagina == "Baixa_DDR":
+            pagina = Baixa_DDR()
 
         pagina.mostrar()
 
