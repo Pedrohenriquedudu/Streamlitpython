@@ -93,10 +93,37 @@ CONSULTAS: :point_down:
             if __name__ == '__main__':
                 formulario()
             # Adicione mais elementos à sua página secundária conforme necessário
+    class Notificação:
+        def __init__(self):
+            self.titulo = "Notificação"
+
+        def mostrar(self):
+            st.title(self.titulo)
+            # Adicione mais elementos à sua página inicial conforme necessário
+            def formulario():
+                Notificação = st.text_input('Notificação:')
+                Técnico = st.text_input('Técnico:')
+                Telefone = st.text_input('Telefone:')
+                RE = st.text_input('RE:')
+                Observação = st.text_input('Observação:')
+                Despacho = st.text_input('Despacho:')
+                if st.button('Gerar Carimbo'):
+                    st.success('Carimbo Gerado com Sucesso!')
+                    exibir_respostas(Notificação,Técnico,Telefone,RE,Observação,Despacho)
+            def exibir_respostas(Notificação, Técnico,Telefone,RE,Observação,Despacho):
+                st.subheader('Respostas:')
+                st.write(f'Notificação: {Notificação}')
+                st.write(f'Técnico: {Técnico}')
+                st.write(f'Telefone: {Telefone}')
+                st.write(f'RE: {RE}')
+                st.write(f'Observação: {Observação}')
+                st.write(f'Despacho: {Despacho}')
+            if __name__ == '__main__':
+                formulario()
 
     def main():
         st.sidebar.title("Navegação")
-        opcao_pagina = st.sidebar.radio("Escolha um Carimbo", ["Principal","Deslocamento", "Abertura de Horario"])
+        opcao_pagina = st.sidebar.radio("Escolha um Carimbo", ["Principal","Deslocamento", "Abertura de Horario","Notificação"])
 
         if opcao_pagina == "Principal":
             pagina =  Principal()
@@ -104,6 +131,8 @@ CONSULTAS: :point_down:
             pagina = Deslocamento()
         elif opcao_pagina == "Abertura de Horario":
             pagina = AberturadeHorario()
+        elif opcao_pagina == "Notificação":
+            pagina = Notificação()
 
         pagina.mostrar()
 
@@ -127,5 +156,3 @@ else:
         st.write("Bem-vindo, " + username)
     else:
         st.error("Credenciais inválidas. Tente novamente.")
-        # Adicione aqui o código para a parte protegida da página após o login
-
