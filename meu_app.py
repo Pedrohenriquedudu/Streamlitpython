@@ -41,7 +41,6 @@ class Deslocamento:
 		 st.title(self.titulo)
             # Adicione mais elementos à sua página inicial conforme necessário
 		 def formulario():
-			 
 			Deslocamento = st.text_input('Deslocamento:')
 			Técnico = st.text_input('Técnico:')
 			Telefone = st.text_input('Telefone:')
