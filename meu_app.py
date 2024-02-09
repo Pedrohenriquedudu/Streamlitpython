@@ -76,7 +76,7 @@ class AberturadeHorario:
 				 Despacho = st.text_input('Despacho:')
 				 if st.button('Gerar Carimbo'):
 				    st.success('Carimbo Gerado com Sucesso!')
-					exibir_respostas(Técnico,Telefone,Ciente,Tel,Observação,Despacho) 
+				    exibir_respostas(Técnico,Telefone,Ciente,Tel,Observação,Despacho) 
 			def exibir_respostas(Técnico,Telefone,Ciente,Tel,Observação,Despacho:
 					     st.subheader('Respostas:')
                		        	     st.write(f'Técnico: {Técnico}')
