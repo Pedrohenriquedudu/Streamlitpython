@@ -36,7 +36,6 @@ CONSULTAS: :point_down:
            
 class Deslocamento:
 	def __init__(self):
-		
 		self.titulo = "Deslocamento"
 
       	 def mostrar(self):
