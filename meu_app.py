@@ -162,9 +162,10 @@ CONSULTAS: :point_down:
                 st.write(f'Analista_ESSE: {Analista_ESSE}')
             if __name__ == '__main__':
                 formulario()
-
-
-    class Ativação_Gpon_e_Router:
+		    
+		    
+class Ativação_Gpon_e_Router:
+	
         def __init__(self):
             self.titulo = "Ativação_Gpon_e_Router"
 
