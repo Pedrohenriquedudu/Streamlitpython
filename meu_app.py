@@ -177,8 +177,7 @@ CONSULTAS: :point_down:
             pagina = Notificação()
         elif opcao_pagina == "Baixa_DDR":
             pagina = Baixa_DDR()
-
-is_authenticated = False
+	is_authenticated = False
 
 if "is_authenticated" in st.session_state:
     is_authenticated = st.session_state.is_authenticated
