@@ -59,9 +59,9 @@ class Deslocamento:
 			st.write(f'Observação: {Observação}')
 			st.write(f'Despacho: {Despacho}')
 		if __name__ == '__main__':
+			formulario()
 			
-                	formulario()
- class AberturadeHorario:
+class AberturadeHorario:
 	 def __init__(self):
 		 self.titulo = "Abertura de Horario"
 
