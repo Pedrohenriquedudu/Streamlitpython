@@ -171,7 +171,8 @@ CONSULTAS: :point_down:
         def mostrar(self):
             st.title(self.titulo)
             # Adicione mais elementos à sua página inicial conforme necessário
-	            def formulario():
+		def formulario():
+			
 			Osx = st.text_input('Osx:')
 			ID_vantive = st.text_input('ID_vantive:')
 			Técnico = st.text_input('Técnico:')
