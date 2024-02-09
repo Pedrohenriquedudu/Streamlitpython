@@ -66,8 +66,9 @@ class AberturadeHorario:
 		 self.titulo = "Abertura de Horario"
 		 def mostrar(self):
 			 st.title(self.titulo)
-              def formulario():
-		      Técnico = st.text_input('Técnico:')
+			 
+			 def formulario():
+				 Técnico = st.text_input('Técnico:')
 		      Telefone= st.text_input('Telefone:')
 		      Ciente= st.text_input('Ciente:')
 		      Tel= st.text_input('Tel:')
