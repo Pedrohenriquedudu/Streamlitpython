@@ -37,8 +37,7 @@ CONSULTAS: :point_down:
 class Deslocamento:
 	def __init__(self):
 		self.titulo = "Deslocamento"
-
-      	def mostrar(self):
+		def mostrar(self):
 		 st.title(self.titulo)
             # Adicione mais elementos à sua página inicial conforme necessário
 	        def formulario():
