@@ -61,8 +61,7 @@ class Deslocamento:
 		if __name__ == '__main__':
 			
                 	formulario()
-
-    class AberturadeHorario:
+ class AberturadeHorario:
         def __init__(self):
             self.titulo = "Abertura de Horario"
 
@@ -89,8 +88,8 @@ class Deslocamento:
             if __name__ == '__main__':
                 formulario()
             # Adicione mais elementos à sua página secundária conforme necessário
-    class Notificação:
-        def __init__(self):
+class Notificação:
+	def __init__(self):
             self.titulo = "Notificação"
 
         def mostrar(self):
