@@ -21,15 +21,13 @@ def login():
 # Página protegida
 def pagina_protegida():
 	 class Principal:
-       	 def __init__(self):
-       	  self.titulo = "Instrução de Trabalho ESSE B2B :book:"
-            
-           def mostrar(self):
-       		 st.title(self.titulo)
+		 def __init__(self):
+	       	  self.titulo = "Instrução de Trabalho ESSE B2B :book:"
+			 def mostrar(self):
+				 st.title(self.titulo)
 
-            with st.container():
-                 
-                 st.markdown(''' 
+ with st.container():
+  st.markdown(''' 
 CONSULTAS: :point_down:
 ''')
             st.link_button("Desp. Instalação", "https://drive.google.com/file/d/1utRUjjDKYST3wYd6E5BaD3XKYysge29T/view?usp=sharing")
