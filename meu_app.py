@@ -77,17 +77,16 @@ class AberturadeHorario:
 				 if st.button('Gerar Carimbo'):
 					 st.success('Carimbo Gerado com Sucesso!')
 					 exibir_respostas(Técnico,Telefone,Ciente,Tel,Observação,Despacho)
-		def exibir_respostas(Técnico,Telefone,Ciente,Tel,Observação,Despacho):
-			
-			st.subheader('Respostas:')
-               		st.write(f'Técnico: {Técnico}')
-                        st.write(f'Telefone: {Telefone}')
-                        st.write(f'Ciente: {Ciente}')
-                        st.write(f'Tel: {Tel}')
-                        st.write(f'Observação: {Observação}')
-                        st.write(f'Despacho: {Despacho}')
-                      if __name__ == '__main__':
-                           formulario()
+			def exibir_respostas(Técnico,Telefone,Ciente,Tel,Observação,Despacho):
+				st.subheader('Respostas:')
+               		        st.write(f'Técnico: {Técnico}')
+                                st.write(f'Telefone: {Telefone}')
+                                st.write(f'Ciente: {Ciente}')
+                                st.write(f'Tel: {Tel}')
+                                st.write(f'Observação: {Observação}')
+                                st.write(f'Despacho: {Despacho}')
+                        if __name__ == '__main__':
+                            formulario()
             # Adicione mais elementos à sua página secundária conforme necessário
 class Notificação:
 	def __init__(self):
