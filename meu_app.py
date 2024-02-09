@@ -25,8 +25,7 @@ def pagina_protegida():
        		 def __init__(self):
        		     self.titulo = "Instrução de Trabalho ESSE B2B :book:"
             
-           
-    	  	  def mostrar(self):
+           	  def mostrar(self):
        		     st.title(self.titulo)
 
             with st.container():
