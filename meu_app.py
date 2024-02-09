@@ -33,7 +33,7 @@ def pagina_protegida():
                  
                  st.markdown(''' 
 CONSULTAS: :point_down:
-''') 
+''')
             st.link_button("Desp. Instalação", "https://drive.google.com/file/d/1utRUjjDKYST3wYd6E5BaD3XKYysge29T/view?usp=sharing")
             st.link_button("Codigos Remedy","https://docs.google.com/document/d/1pUbdXcrXbND1yGss9p3s9uLjctUPSPy5/edit?usp=sharing&ouid=115435742445522021005&rtpof=true&sd=true")
            
@@ -172,26 +172,26 @@ CONSULTAS: :point_down:
             st.title(self.titulo)
             # Adicione mais elementos à sua página inicial conforme necessário
             def formulario():
-		    Osx = st.text_input('Osx:')
-		    ID_vantive = st.text_input('ID_vantive:')
-		    Técnico = st.text_input('Técnico:')
-		    Telefone = st.text_input('Telefone:')
-		    RE = st.text_input('RE:')
-		    Ciente = st.text_input('Ciente:')
-		    Tel = st.text_input('Tel:')
-		    Ont = st.text_input('Ont:')
-		    Serial = st.text_input('Serial:')
-		    Roteador = st.text_input('Roteador:')
-		    Serie = st.text_input('Serie:')
-		    Facilidades_Gpon = st.text_input('Facilidades_Gpon:')
-		    Cabo = st.text_input('Cabo:')
-		    Fibra_Sec = st.text_input('Fibra_Sec:')
-		    Rvt = st.text_input('Rvt:')
-		    Observação = st.text_input('Observação:')
-		    Analista_ESSE = st.text_input('Analista_ESSE:')
-		    if st.button('Gerar Carimbo'):
-			    st.success('Carimbo Gerado com Sucesso!')
-	                    exibir_respostas(Osx,ID_vantive,Técnico,Telefone,RE,Ciente,Tel,Ont,Serial,Roteador,Serie,Facilidades_Gpon,Cabo,Fibra_Pri,Fibra_Sec,Rvt,Observação,Analista_ESSE)
+		Osx = st.text_input('Osx:')
+		ID_vantive = st.text_input('ID_vantive:')
+		Técnico = st.text_input('Técnico:')
+		Telefone = st.text_input('Telefone:')
+		RE = st.text_input('RE:')
+		Ciente = st.text_input('Ciente:')
+		Tel = st.text_input('Tel:')
+		Ont = st.text_input('Ont:')
+		Serial = st.text_input('Serial:')
+		Roteador = st.text_input('Roteador:')
+		Serie = st.text_input('Serie:')
+		Facilidades_Gpon = st.text_input('Facilidades_Gpon:')
+		Cabo = st.text_input('Cabo:')
+		Fibra_Sec = st.text_input('Fibra_Sec:')
+		Rvt = st.text_input('Rvt:')
+		Observação = st.text_input('Observação:')
+		Analista_ESSE = st.text_input('Analista_ESSE:')
+		if st.button('Gerar Carimbo'):
+			st.success('Carimbo Gerado com Sucesso!')
+	                exibir_respostas(Osx,ID_vantive,Técnico,Telefone,RE,Ciente,Tel,Ont,Serial,Roteador,Serie,Facilidades_Gpon,Cabo,Fibra_Pri,Fibra_Sec,Rvt,Observação,Analista_ESSE)
             def exibir_respostas(Osx,ID_vantive,Técnico,Telefone,RE,Ciente,Tel,Ont,Serial,Roteador,Serie,Facilidades_Gpon,Cabo,Fibra_Pri,Fibra_Sec,Rvt,Observação,Analista_ESSE):
                 st.subheader('Respostas:')
                 st.write(f'Osx: {Osx}')
