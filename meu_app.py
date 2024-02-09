@@ -191,7 +191,7 @@ CONSULTAS: :point_down:
 		Analista_ESSE = st.text_input('Analista_ESSE:')
 		if st.button('Gerar Carimbo'):
 			st.success('Carimbo Gerado com Sucesso!')
-	                exibir_respostas(Osx,ID_vantive,Técnico,Telefone,RE,Ciente,Tel,Ont,Serial,Roteador,Serie,Facilidades_Gpon,Cabo,Fibra_Pri,Fibra_Sec,Rvt,Observação,Analista_ESSE)
+		                exibir_respostas(Osx,ID_vantive,Técnico,Telefone,RE,Ciente,Tel,Ont,Serial,Roteador,Serie,Facilidades_Gpon,Cabo,Fibra_Pri,Fibra_Sec,Rvt,Observação,Analista_ESSE)
             def exibir_respostas(Osx,ID_vantive,Técnico,Telefone,RE,Ciente,Tel,Ont,Serial,Roteador,Serie,Facilidades_Gpon,Cabo,Fibra_Pri,Fibra_Sec,Rvt,Observação,Analista_ESSE):
                 st.subheader('Respostas:')
                 st.write(f'Osx: {Osx}')
