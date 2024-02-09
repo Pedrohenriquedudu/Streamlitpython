@@ -165,7 +165,7 @@ CONSULTAS: :point_down:
 		    
     def main():
         st.sidebar.title("Navegação")
-        opcao_pagina = st.sidebar.radio("Escolha um Carimbo", ["Principal","Deslocamento", "Abertura de Horario","Notificação","Baixa_DDR","Ativação_Gpon_e_Router"])
+        opcao_pagina = st.sidebar.radio("Escolha um Carimbo", ["Principal","Deslocamento", "Abertura de Horario","Notificação","Baixa_DDR"])
 
         if opcao_pagina == "Principal":
             pagina =  Principal()
@@ -177,8 +177,6 @@ CONSULTAS: :point_down:
             pagina = Notificação()
         elif opcao_pagina == "Baixa_DDR":
             pagina = Baixa_DDR()
-        elif opcao_pagina == "Ativação_Gpon_e_Router":
-            pagina = Ativação_Gpon_e_Router()
 
 is_authenticated = False
 
