@@ -48,8 +48,8 @@ class Deslocamento:
 			Observação = st.text_input('Observação:')
 			Despacho = st.text_input('Despacho:')
 			if st.button('Gerar Carimbo'):
-			   st.success('Carimbo Gerado com Sucesso!')
-			exibir_respostas(Deslocamento,Técnico,Telefone,RE,Observação,Despacho)
+				st.success('Carimbo Gerado com Sucesso!')	
+				exibir_respostas(Deslocamento,Técnico,Telefone,RE,Observação,Despacho)
 		def exibir_respostas(Deslocamento, Técnico,Telefone,RE,Observação,Despacho):
 			st.subheader('Respostas:')
 			st.write(f'Deslocamento: {Deslocamento}')
