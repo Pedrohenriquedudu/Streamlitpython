@@ -58,8 +58,8 @@ class Deslocamento:
 			st.write(f'RE: {RE}')
 			st.write(f'Observação: {Observação}')
 			st.write(f'Despacho: {Despacho}')
-    		    if __name__ == '__main__':
-			    formulario()
+    		if __name__ == '__main__':
+      		  	formulario()
 
     class AberturadeHorario:
         def __init__(self):
