@@ -64,9 +64,8 @@ class Deslocamento:
 class AberturadeHorario:
 	 def __init__(self):
 		 self.titulo = "Abertura de Horario"
-
-         def mostrar(self): 
-            	st.title(self.titulo)
+	def mostrar(self):
+		st.title(self.titulo)
               def formulario():
 		      Técnico = st.text_input('Técnico:')
 		      Telefone= st.text_input('Telefone:')
