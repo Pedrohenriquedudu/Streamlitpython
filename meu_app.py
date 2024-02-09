@@ -23,7 +23,7 @@ def pagina_protegida():
 	
 	 class Principal:
        		 def __init__(self):
-            self.titulo = "Instrução de Trabalho ESSE B2B :book:"
+       		     self.titulo = "Instrução de Trabalho ESSE B2B :book:"
             
            
       	  def mostrar(self):
