@@ -62,29 +62,29 @@ class Deslocamento:
 			
                 	formulario()
  class AberturadeHorario:
-        def __init__(self):
-            self.titulo = "Abertura de Horario"
+	 def __init__(self):
+		 self.titulo = "Abertura de Horario"
 
-        def mostrar(self):
-            st.title(self.titulo)
-            def formulario():
-                Técnico = st.text_input('Técnico:')
-                Telefone= st.text_input('Telefone:')
-                Ciente= st.text_input('Ciente:')
-                Tel= st.text_input('Tel:')
-                Observação= st.text_input('Observação:')
-                Despacho = st.text_input('Despacho:')
-                if st.button('Gerar Carimbo'):
-                    st.success('Carimbo Gerado com Sucesso!')
-                    exibir_respostas(Técnico,Telefone,Ciente,Tel,Observação,Despacho)
-            def exibir_respostas(Técnico,Telefone,Ciente,Tel,Observação,Despacho):
-                st.subheader('Respostas:')
-                st.write(f'Técnico: {Técnico}')
-                st.write(f'Telefone: {Telefone}')
-                st.write(f'Ciente: {Ciente}')
-                st.write(f'Tel: {Tel}')
-                st.write(f'Observação: {Observação}')
-                st.write(f'Despacho: {Despacho}')
+         def mostrar(self): 
+            	st.title(self.titulo)
+              def formulario():
+		      Técnico = st.text_input('Técnico:')
+		      Telefone= st.text_input('Telefone:')
+		      Ciente= st.text_input('Ciente:')
+		      Tel= st.text_input('Tel:')
+		      Observação= st.text_input('Observação:')
+		      Despacho = st.text_input('Despacho:')
+		      if st.button('Gerar Carimbo'):
+                    	 st.success('Carimbo Gerado com Sucesso!')
+                    	exibir_respostas(Técnico,Telefone,Ciente,Tel,Observação,Despacho)
+	            def exibir_respostas(Técnico,Telefone,Ciente,Tel,Observação,Despacho):
+			    st.subheader('Respostas:')
+               		    st.write(f'Técnico: {Técnico}')
+                            st.write(f'Telefone: {Telefone}')
+                            st.write(f'Ciente: {Ciente}')
+                            st.write(f'Tel: {Tel}')
+                            st.write(f'Observação: {Observação}')
+                            st.write(f'Despacho: {Despacho}')
             if __name__ == '__main__':
                 formulario()
             # Adicione mais elementos à sua página secundária conforme necessário
