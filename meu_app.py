@@ -287,9 +287,6 @@ CONSULTAS: :point_down:
 
 
 
-if "is_authenticated" in st.session_state:
-    is_authenticated = st.session_state.is_authenticated
-
 # Se o usuário está autenticado, mostre a página protegida
 if is_authenticated:
     pagina_protegida()
