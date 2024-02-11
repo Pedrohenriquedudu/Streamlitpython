@@ -284,6 +284,8 @@ CONSULTAS: :point_down:
 
     if __name__ == "__main__":
         main()
+        
+is_authenticated = False
 
 if "is_authenticated" in st.session_state:
     is_authenticated = st.session_state.is_authenticated
