@@ -216,7 +216,6 @@ CONSULTAS: :point_down:
 
                     st.success('Carimbo Gerado com Sucesso!')
                     exibir_respostas(Osx,ID_vantive,Técnico,Telefone,RE,Ciente,Tel,Ont,Serial,Roteador,Serie,Facilidades_Gpon,Cabo,Fibra_Pri,Fibra_Sec,Rvt,Observação,Analista_ESSE)
-
             def exibir_respostas(Osx,ID_vantive,Técnico,Telefone,RE,Ciente,Tel,Ont,Serial,Roteador,Serie,Facilidades_Gpon,Cabo,Fibra_Pri,Fibra_Sec,Rvt,Observação,Analista_ESSE):
 
                 st.subheader('Respostas:')
@@ -315,7 +314,6 @@ CONSULTAS: :point_down:
 
                     st.success('Carimbo Gerado com Sucesso!')
                     exibir_respostas(Osx,ID_vantive,Técnico,Telefone,RE,Ciente,Tel,Modem,Serial,Roteador,Serie,Cabo,Lateral,Pares,Enlace,Ruido,Isolação,Rvt,Observação,Analista_ESSE)
-
             def exibir_respostas(Osx,ID_vantive,Técnico,Telefone,RE,Ciente,Tel,Modem,Serial,Roteador,Serie,Cabo,Lateral,Pares,Enlace,Ruido,Isolação,Rvt,Observação,Analista_ESSE):
 
                 st.subheader('Respostas:')
