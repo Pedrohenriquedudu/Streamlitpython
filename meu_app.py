@@ -334,7 +334,7 @@ CONSULTAS: :point_down:
 
                 st.write(f'Tel: {Tel}')
 
-                st.write(f'Ont: {Ont}')
+                st.write(f'Modem: {Modem}')
 
                 st.write(f'Serial: {Serial}')
 
