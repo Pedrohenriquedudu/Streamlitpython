@@ -362,10 +362,113 @@ CONSULTAS: :point_down:
 
                 formulario()
 
+     class Vistoria_Intragov:
+        def __init__(self):
+            self.titulo = "Vistoria_Intragov"
+        def mostrar(self):
+
+            st.title(self.titulo)
+
+            # Adicione mais elementos à sua página inicial conforme necessário
+
+            def formulario():
+
+                Osx = st.text_input('Osx:')
+
+                ID_vantive = st.text_input('ID_vantive:')
+
+                Técnico = st.text_input('Técnico:')
+
+                Telefone = st.text_input('Telefone:')
+
+                RE = st.text_input('RE:')
+
+                Ciente = st.text_input('Ciente:')
+
+                Tel = st.text_input('Tel:')
+
+                Gtd_Instalou_Rack = st.text_input('Gtd Instalou Rack:')
+
+                Serial = st.text_input('Serial:')
+
+                Roteador = st.text_input('Roteador:')
+
+                Serie = st.text_input('Serie:')
+
+                Cabo = st.text_input('Cabo:')
+
+                Lateral = st.text_input('Lateral:')
+
+                Pares = st.text_input('Pares:')
+
+                Enlace = st.text_input('Enlace:')
+
+                Ruido = st.text_input('Ruido:')
+
+                Isolação = st.text_input('Isolação:')
+
+                Rvt = st.text_input('Rvt:')
+
+                Observação = st.text_input('Observação:')
+
+                Analista_ESSE = st.text_input('Analista_ESSE:')
+
+                if st.button('Gerar Carimbo'):
+
+                    st.success('Carimbo Gerado com Sucesso!')
+                    exibir_respostas(Osx,ID_vantive,Técnico,Telefone,RE,Ciente,Tel,Gtd_Instalou_Rack,Serial,Roteador,Serie,Cabo,Lateral,Pares,Enlace,Ruido,Isolação,Rvt,Observação,Analista_ESSE)
+            def exibir_respostas(Osx,ID_vantive,Técnico,Telefone,RE,Ciente,Tel,Gtd_Instalou_Rack,Serial,Roteador,Serie,Cabo,Lateral,Pares,Enlace,Ruido,Isolação,Rvt,Observação,Analista_ESSE):
+
+                st.subheader('Respostas:')
+
+                st.write(f'Osx: {Osx}')
+
+                st.write(f'ID_vantive: {ID_vantive}')
+
+                st.write(f'Técnico: {Técnico}')
+
+                st.write(f'Telefone: {Telefone}')
+
+                st.write(f'RE: {RE}')
+
+                st.write(f'Ciente: {Ciente}')
+
+                st.write(f'Tel: {Tel}')
+
+                st.write(f'Gtd_Instalou_Rack: {Gtd_Instalou_Rack}')
+
+                st.write(f'Serial: {Serial}')
+
+                st.write(f'Roteador: {Roteador}')
+
+                st.write(f'Serie: {Serie}')
+
+                st.write(f'Cabo: {Cabo}')
+
+                st.write(f'Lateral: {Lateral}')
+
+                st.write(f'Pares: {Pares}')
+
+                st.write(f'Enlace: {Enlace}')
+
+                st.write(f'Ruido: {Ruido}')
+
+                st.write(f'Isolação: {Isolação}')
+
+                st.write(f'Rvt: {Rvt}')
+
+                st.write(f'Observação: {Observação}')
+
+                st.write(f'Analista_ESSE: {Analista_ESSE}')
+
+            if __name__ == '__main__':
+
+                formulario()
+
  
     def main():
         st.sidebar.title("Navegação")
-        opcao_pagina = st.sidebar.radio("Escolha um Carimbo", ["Principal","Deslocamento", "Abertura de Horario","Notificação","Baixa_DDR","Ativação_Gpon_Router","Ativação_Dslan_V35"])
+        opcao_pagina = st.sidebar.radio("Escolha um Carimbo", ["Principal","Deslocamento", "Abertura de Horario","Notificação","Baixa_DDR","Ativação_Gpon_Router","Ativação_Dslan_V35","Vistoria_Intragov"])
 
         if opcao_pagina == "Principal":
             pagina =  Principal()
@@ -381,6 +484,8 @@ CONSULTAS: :point_down:
             pagina = Ativação_Gpon_Router()
         elif opcao_pagina == "Ativação_Dslan_V35":
             pagina = Ativação_Dslan_V35()
+        elif opcao_pagina == "Vistoria_Intragov":
+            pagina = Vistoria_Intragov()
 
         pagina.mostrar()
 
