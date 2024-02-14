@@ -437,21 +437,21 @@ CONSULTAS: :point_down:
 
                 st.write(f'Gtd Instalou Rack? {Gtd_Instalou_Rack}')
 
-                st.write(f'Informar_o_porque_o_rack_não_foi_instalado: {Informar_o_porque_o_rack_não_foi_instalado}')
+                st.write(f'Informar o porque o rack não foi instalado: {Informar_o_porque_o_rack_não_foi_instalado}')
 
-                st.write(f'Rack_instalado_é_telefonica_ou_cliente: {Rack_instalado_é_telefonica_ou_cliente}')
+                st.write(f'Rack instalado é telefonica ou cliente? {Rack_instalado_é_telefonica_ou_cliente}')
 
-                st.write(f'O_espaço_no_rack_é_adequado: {O_espaço_no_rack_é_adequado}')
+                st.write(f'O espaço no rack é adequado? {O_espaço_no_rack_é_adequado}')
 
-                st.write(f'O_rack_está_proximo_da_lan_ou_servidor_do_cliente: {O_rack_está_proximo_da_lan_ou_servidor_do_cliente}')
+                st.write(f'O rack está proximo da lan ou servidor do cliente? {O_rack_está_proximo_da_lan_ou_servidor_do_cliente}')
 
-                st.write(f'Os_dijuntores_usados_são_compartilhados_ou_exclusivos: {Os_dijuntores_usados_são_compartilhados_ou_exclusivos}')
+                st.write(f'Os dijuntores usados são compartilhados ou exclusivos? {Os_dijuntores_usados_são_compartilhados_ou_exclusivos}')
 
-                st.write(f'Os_dijuntores_usados_são_identificados: {Os_dijuntores_usados_são_identificados}')
+                st.write(f'Os dijuntores usados são identificados? {Os_dijuntores_usados_são_identificados}')
 
-                st.write(f'A_energia_elétrica_para_redundancia_é_distinta: {A_energia_elétrica_para_redundancia_é_distinta}')
+                st.write(f'A energia elétrica para redundancia é distinta? {A_energia_elétrica_para_redundancia_é_distinta}')
 
-                st.write(f'Voltagem_127_ou_220: {Voltagem_127_ou_220}')
+                st.write(f'Voltagem 127 ou 220? {Voltagem_127_ou_220}')
 
                 st.write(f'Isolação: {Isolação}')
 
