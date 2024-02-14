@@ -435,7 +435,7 @@ CONSULTAS: :point_down:
 
                 st.write(f'Tel: {Tel}')
 
-                st.write(f'Gtd_Instalou_Rack: {Gtd_Instalou_Rack}')
+                st.write(f'Gtd_Instalou_Rack: {Gtd Instalou Rack}')
 
                 st.write(f'Informar_o_porque_o_rack_não_foi_instalado: {Informar_o_porque_o_rack_não_foi_instalado}')
 
