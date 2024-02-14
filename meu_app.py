@@ -387,7 +387,7 @@ CONSULTAS: :point_down:
 
                 Tel = st.text_input('Tel:')
 
-                Gtd_Instalou_Rack = st.text_input('Gtd Instalou Rack:')
+                Gtd_Instalou_Rack = st.text_input('Gtd Instalou Rack?')
 
                 Serial = st.text_input('Serial:')
 
