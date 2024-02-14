@@ -361,7 +361,6 @@ CONSULTAS: :point_down:
             if __name__ == '__main__':
 
                 formulario()
-
      class Vistoria_Intragov:
         def __init__(self):
             self.titulo = "Vistoria_Intragov"
