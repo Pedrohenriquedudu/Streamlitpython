@@ -437,21 +437,21 @@ CONSULTAS: :point_down:
 
                 st.write(f'Gtd_Instalou_Rack: {Gtd_Instalou_Rack}')
 
-                st.write(f'Serial: {Serial}')
+                st.write(f'Informar_o_porque_o_rack_não_foi_instalado: {Informar_o_porque_o_rack_não_foi_instalado}')
 
-                st.write(f'Roteador: {Roteador}')
+                st.write(f'Rack_instalado_é_telefonica_ou_cliente: {Rack_instalado_é_telefonica_ou_cliente}')
 
-                st.write(f'Serie: {Serie}')
+                st.write(f'O_espaço_no_rack_é_adequado: {O_espaço_no_rack_é_adequado}')
 
-                st.write(f'Cabo: {Cabo}')
+                st.write(f'O_rack_está_proximo_da_lan_ou_servidor_do_cliente: {O_rack_está_proximo_da_lan_ou_servidor_do_cliente}')
 
-                st.write(f'Lateral: {Lateral}')
+                st.write(f'Os_dijuntores_usados_são_compartilhados_ou_exclusivos: {Os_dijuntores_usados_são_compartilhados_ou_exclusivos}')
 
-                st.write(f'Pares: {Pares}')
+                st.write(f'Os_dijuntores_usados_são_identificados: {Os_dijuntores_usados_são_identificados}')
 
-                st.write(f'Enlace: {Enlace}')
+                st.write(f'A_energia_elétrica_para_redundancia_é_distinta: {A_energia_elétrica_para_redundancia_é_distinta}')
 
-                st.write(f'Ruido: {Ruido}')
+                st.write(f'Voltagem_127_ou_220: {Voltagem_127_ou_220}')
 
                 st.write(f'Isolação: {Isolação}')
 
