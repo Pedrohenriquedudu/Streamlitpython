@@ -35,7 +35,6 @@ def pagina_protegida():
 CONSULTAS: :point_down:
 ''') 
             st.link_button("Desp. Instalação", "https://drive.google.com/file/d/1utRUjjDKYST3wYd6E5BaD3XKYysge29T/view?usp=sharing")
-            st.link_button("Codigos Remedy","https://docs.google.com/document/d/1pUbdXcrXbND1yGss9p3s9uLjctUPSPy5/edit?usp=sharing&ouid=115435742445522021005&rtpof=true&sd=true")
             st.link_button("Abertura de GAUS","https://drive.google.com/file/d/11n37sQPMdsT9si968UMbMLrxUKJU52FE/view?usp=sharing")
             st.link_button("Abertura de Tiquete de Terceiros","https://drive.google.com/file/d/1sI98N18OZkTSUi58jV8IcXuSvobYNLYd/view?usp=sharing")
             st.link_button("Acesso Datacenter","https://docs.google.com/document/d/1Qm1A4XrbWSSYSf18emOYdIAbkalFQWIo/edit?usp=sharing&ouid=115435742445522021005&rtpof=true&sd=true")
