@@ -389,21 +389,21 @@ CONSULTAS: :point_down:
 
                 Gtd_Instalou_Rack = st.text_input('Gtd Instalou Rack?')
 
-                Serial = st.text_input('Serial:')
+                Informar_o_porque_o_rack_não_foi_instalado = st.text_input('Informar o porque o rack não foi instalado:')
 
-                Roteador = st.text_input('Roteador:')
+                Rack_instalado_é_telefonica_ou_cliente = st.text_input('Rack instalado é telefonica ou cliente?')
 
-                Serie = st.text_input('Serie:')
+                O_espaço_no_rack_é_adequado = st.text_input('O espaço no rack é adequado?')
 
-                Cabo = st.text_input('Cabo:')
+                O_rack_está_proximo_da_lan_ou_servidor_do_cliente = st.text_input('O rack está proximo da lan ou servidor do cliente?')
 
-                Lateral = st.text_input('Lateral:')
+                Os_dijuntores_usados_são_compartilhados_ou_exclusivos = st.text_input('Os_dijuntores_usados_são_compartilhados_ou_exclusivos?')
 
-                Pares = st.text_input('Pares:')
+                Os_dijuntores_usados_são_identificados = st.text_input('Os dijuntores usados são identificados?')
 
-                Enlace = st.text_input('Enlace:')
+                A_energia_elétrica_para_redundancia_é_distinta = st.text_input('A energia elétrica para redundancia é distinta?')
 
-                Ruido = st.text_input('Ruido:')
+                Voltagem_127_ou_220 = st.text_input('Voltagem 127 ou 220?')
 
                 Isolação = st.text_input('Isolação:')
 
@@ -416,8 +416,8 @@ CONSULTAS: :point_down:
                 if st.button('Gerar Carimbo'):
 
                     st.success('Carimbo Gerado com Sucesso!')
-                    exibir_respostas(Osx,ID_vantive,Técnico,Telefone,RE,Ciente,Tel,Gtd_Instalou_Rack,Serial,Roteador,Serie,Cabo,Lateral,Pares,Enlace,Ruido,Isolação,Rvt,Observação,Analista_ESSE)
-            def exibir_respostas(Osx,ID_vantive,Técnico,Telefone,RE,Ciente,Tel,Gtd_Instalou_Rack,Serial,Roteador,Serie,Cabo,Lateral,Pares,Enlace,Ruido,Isolação,Rvt,Observação,Analista_ESSE):
+                    exibir_respostas(Osx,ID_vantive,Técnico,Telefone,RE,Ciente,Tel,Gtd_Instalou_Rack,Informar_o_porque_o_rack_não_foi_instalado,Rack_instalado_é_telefonica_ou_cliente,O_espaço_no_rack_é_adequado,O_rack_está_proximo_da_lan_ou_servidor_do_cliente,Os_dijuntores_usados_são_compartilhados_ou_exclusivos,Os_dijuntores_usados_são_identificados,A_energia_elétrica_para_redundancia_é_distinta,Voltagem_127_ou_220,Isolação,Rvt,Observação,Analista_ESSE)
+            def exibir_respostas(Osx,ID_vantive,Técnico,Telefone,RE,Ciente,Tel,Gtd_Instalou_Rack,Informar_o_porque_o_rack_não_foi_instalado,Rack_instalado_é_telefonica_ou_cliente,O_espaço_no_rack_é_adequado,O_rack_está_proximo_da_lan_ou_servidor_do_cliente,Os_dijuntores_usados_são_compartilhados_ou_exclusivos,Os_dijuntores_usados_são_identificados,A_energia_elétrica_para_redundancia_é_distinta,Voltagem_127_ou_220,Isolação,Rvt,Observação,Analista_ESSEE):
 
                 st.subheader('Respostas:')
 
