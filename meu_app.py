@@ -405,9 +405,11 @@ CONSULTAS: :point_down:
 
                 Voltagem_127_ou_220 = st.text_input('Voltagem 127 ou 220?')
 
-                Isolação = st.text_input('Isolação:')
+                Possui_aterramento = st.text_input('Possui_aterramento?')
 
-                Rvt = st.text_input('Rvt:')
+                A_rede_interna_foi_executada_ou_existente = st.text_input('A_rede_interna_foi_executada_ou_existente?')
+
+                Qual_tipo_de_cabeamento_ultilizado = st.text_input('Qual_tipo_de_cabeamento_ultilizado?')
 
                 Observação = st.text_input('Observação:')
 
@@ -416,8 +418,8 @@ CONSULTAS: :point_down:
                 if st.button('Gerar Carimbo'):
 
                     st.success('Carimbo Gerado com Sucesso!')
-                    exibir_respostas(Osx,ID_vantive,Técnico,Telefone,RE,Ciente,Tel,Gtd_Instalou_Rack,Informar_o_porque_o_rack_não_foi_instalado,Rack_instalado_é_telefonica_ou_cliente,O_espaço_no_rack_é_adequado,O_rack_está_proximo_da_lan_ou_servidor_do_cliente,Os_dijuntores_usados_são_compartilhados_ou_exclusivos,Os_dijuntores_usados_são_identificados,A_energia_elétrica_para_redundancia_é_distinta,Voltagem_127_ou_220,Isolação,Rvt,Observação,Analista_ESSE)
-            def exibir_respostas(Osx,ID_vantive,Técnico,Telefone,RE,Ciente,Tel,Gtd_Instalou_Rack,Informar_o_porque_o_rack_não_foi_instalado,Rack_instalado_é_telefonica_ou_cliente,O_espaço_no_rack_é_adequado,O_rack_está_proximo_da_lan_ou_servidor_do_cliente,Os_dijuntores_usados_são_compartilhados_ou_exclusivos,Os_dijuntores_usados_são_identificados,A_energia_elétrica_para_redundancia_é_distinta,Voltagem_127_ou_220,Isolação,Rvt,Observação,Analista_ESSEE):
+                    exibir_respostas(Osx,ID_vantive,Técnico,Telefone,RE,Ciente,Tel,Gtd_Instalou_Rack,Informar_o_porque_o_rack_não_foi_instalado,Rack_instalado_é_telefonica_ou_cliente,O_espaço_no_rack_é_adequado,O_rack_está_proximo_da_lan_ou_servidor_do_cliente,Os_dijuntores_usados_são_compartilhados_ou_exclusivos,Os_dijuntores_usados_são_identificados,A_energia_elétrica_para_redundancia_é_distinta,Voltagem_127_ou_220,Possui_aterramento,A_rede_interna_foi_executada_ou_existente,Qual_tipo_de_cabeamento_ultilizado,Observação,Analista_ESSE)
+            def exibir_respostas(Osx,ID_vantive,Técnico,Telefone,RE,Ciente,Tel,Gtd_Instalou_Rack,Informar_o_porque_o_rack_não_foi_instalado,Rack_instalado_é_telefonica_ou_cliente,O_espaço_no_rack_é_adequado,O_rack_está_proximo_da_lan_ou_servidor_do_cliente,Os_dijuntores_usados_são_compartilhados_ou_exclusivos,Os_dijuntores_usados_são_identificados,A_energia_elétrica_para_redundancia_é_distinta,Voltagem_127_ou_220,Possui_aterramento,A_rede_interna_foi_executada_ou_existente,Qual_tipo_de_cabeamento_ultilizado,Observação,Analista_ESSE):
 
                 st.subheader('Respostas:')
 
@@ -453,9 +455,11 @@ CONSULTAS: :point_down:
 
                 st.write(f'Voltagem 127 ou 220? {Voltagem_127_ou_220}')
 
-                st.write(f'Isolação: {Isolação}')
+                st.write(f'Possui aterramento? {Possui_aterramento}')
 
-                st.write(f'Rvt: {Rvt}')
+                st.write(f'A rede interna foi executada ou existente? {A_rede_interna_foi_executada_ou_existente}')
+
+                st.write(f'Qual tipo de cabeamento ultilizado? {Qual_tipo_de_cabeamento_ultilizado}')
 
                 st.write(f'Observação: {Observação}')
 
