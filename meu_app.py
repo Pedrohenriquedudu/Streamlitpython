@@ -463,7 +463,7 @@ CONSULTAS: :point_down:
 
                 st.write(f'Qual tipo de cabeamento ultilizado? {Qual_tipo_de_cabeamento_ultilizado}')
 
-                 st.write(f'Quantos metros? {Quantos_metros}')
+                st.write(f'Quantos metros? {Quantos_metros}')
 
                 st.write(f'Observação: {Observação}')
 
