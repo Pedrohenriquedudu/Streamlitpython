@@ -397,7 +397,7 @@ CONSULTAS: :point_down:
 
                 O_rack_está_proximo_da_lan_ou_servidor_do_cliente = st.text_input('O rack está proximo da lan ou servidor do cliente?')
 
-                Os_dijuntores_usados_são_compartilhados_ou_exclusivos = st.text_input('Os_dijuntores_usados_são_compartilhados_ou_exclusivos?')
+                Os_dijuntores_usados_são_compartilhados_ou_exclusivos = st.text_input('Os dijuntores usados são compartilhados ou exclusivos?')
 
                 Os_dijuntores_usados_são_identificados = st.text_input('Os dijuntores usados são identificados?')
 
@@ -405,11 +405,11 @@ CONSULTAS: :point_down:
 
                 Voltagem_127_ou_220 = st.text_input('Voltagem 127 ou 220?')
 
-                Possui_aterramento = st.text_input('Possui_aterramento?')
+                Possui_aterramento = st.text_input('Possui aterramento?')
 
-                A_rede_interna_foi_executada_ou_existente = st.text_input('A_rede_interna_foi_executada_ou_existente?')
+                A_rede_interna_foi_executada_ou_existente = st.text_input('A rede interna foi executada ou existente?')
 
-                Qual_tipo_de_cabeamento_ultilizado = st.text_input('Qual_tipo_de_cabeamento_ultilizado?')
+                Qual_tipo_de_cabeamento_ultilizado = st.text_input('Qual tipo de cabeamento ultilizado?')
 
                 Observação = st.text_input('Observação:')
 
