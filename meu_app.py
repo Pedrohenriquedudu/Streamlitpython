@@ -361,7 +361,51 @@ CONSULTAS: :point_down:
             if __name__ == '__main__':
 
                 formulario()
-                
+    class Ativação_Conversor:
+        def __init__(self):
+            self.titulo = "Ativação_Conversor"
+
+        def mostrar(self):
+            st.title(self.titulo)
+            # Adicione mais elementos à sua página inicial conforme necessário
+            def formulario():
+                Osx = st.text_input('Osx:')
+                ID_vantive = st.text_input('ID_vantive:')
+                Técnico = st.text_input('Técnico:')
+                Telefone = st.text_input('Telefone:')
+                RE = st.text_input('RE:')
+                Ciente = st.text_input('Ciente:')
+                Tel = st.text_input('Tel:')
+                Equipamento_instalado = st.text_input('Equipamento_instalado:')
+                Serial = st.text_input('Serial:')
+                Testou_X_lite = st.text_input('Testou_X_lite:')
+                Mantenedor = st.text_input('Mantenedor:')
+                Tel_mantenedor = st.text_input('Tel_mantenedor:')
+                Observação = st.text_input('Observação:')
+                Analista_ESSE = st.text_input('Analista_ESSE:')
+        
+                if st.button('Gerar Carimbo'):
+                    st.success('Carimbo Gerado com Sucesso!')
+                    exibir_respostas(Osx,ID_vantive,Técnico,Telefone,RE,Ciente,Tel,Equipamento_instalado,Serial,Testou_X_lite,Mantenedor,Tel_mantenedor,Observação,Analista_ESSE)
+            def exibir_respostas(Osx,ID_vantive,Técnico,Telefone,RE,Ciente,Tel,Equipamento_instalado,Serial,Testou_X_lite,Mantenedor,Tel_mantenedor,Observação,Analista_ESSE):
+                st.subheader('Respostas:')
+                st.write(f'Osx: {Osx}')
+                st.write(f'ID_vantive: {ID_vantive}')
+                st.write(f'Técnico: {Técnico}')
+                st.write(f'Telefone: {Telefone}')
+                st.write(f'RE: {RE}')
+                st.write(f'Ciente: {Ciente}')
+                st.write(f'Tel: {Tel}')
+                st.write(f'Equipamento instalado: {Equipamento_instalado}')
+                st.write(f'Serial: {Serial}')
+                st.write(f'Testou X_lite? {Testou_X_lite}')
+                st.write(f'Mantenedor: {Mantenedor}')
+                st.write(f'Tel_mantenedor: {Tel_mantenedor}')
+                st.write(f'Observação: {Observação}')
+                st.write(f'Analista_ESSE: {Analista_ESSE}')
+
+            if __name__ == '__main__':
+                formulario()            
     class Vistoria_Intragov:
         def __init__(self):
             self.titulo = "Vistoria_Intragov"
@@ -476,7 +520,7 @@ CONSULTAS: :point_down:
  
     def main():
         st.sidebar.title("Navegação")
-        opcao_pagina = st.sidebar.radio("Escolha um Carimbo", ["Principal","Deslocamento", "Abertura de Horario","Notificação","Baixa_DDR","Ativação_Gpon_Router","Ativação_Dslan_V35","Vistoria_Intragov"])
+        opcao_pagina = st.sidebar.radio("Escolha um Carimbo", ["Principal","Deslocamento", "Abertura de Horario","Notificação","Baixa_DDR","Ativação_Gpon_Router","Ativação_Dslan_V35","Ativação_Conversor","Vistoria_Intragov"])
 
         if opcao_pagina == "Principal":
             pagina =  Principal()
@@ -492,6 +536,8 @@ CONSULTAS: :point_down:
             pagina = Ativação_Gpon_Router()
         elif opcao_pagina == "Ativação_Dslan_V35":
             pagina = Ativação_Dslan_V35()
+        elif opcao_pagina == "Ativação_Conversor":
+            pagina = Ativação_Conversor()
         elif opcao_pagina == "Vistoria_Intragov":
             pagina = Vistoria_Intragov()
 
