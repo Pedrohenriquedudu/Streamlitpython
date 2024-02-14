@@ -378,7 +378,7 @@ CONSULTAS: :point_down:
                 Tel = st.text_input('Tel:')
                 Equipamento_instalado = st.text_input('Equipamento instalado?')
                 Serial = st.text_input('Serial:')
-                Testou_X_lite = st.text_input('Testou X_lite:')
+                Testou_X_lite = st.text_input('Testou X_lite?')
                 Mantenedor = st.text_input('Mantenedor:')
                 Tel_mantenedor = st.text_input('Tel_mantenedor:')
                 Observação = st.text_input('Observação:')
