@@ -411,6 +411,8 @@ CONSULTAS: :point_down:
 
                 Qual_tipo_de_cabeamento_ultilizado = st.text_input('Qual tipo de cabeamento ultilizado?')
 
+                Quantos_metros = st.text_input('Quantos metros?')
+
                 Observação = st.text_input('Observação:')
 
                 Analista_ESSE = st.text_input('Analista_ESSE:')
@@ -418,8 +420,8 @@ CONSULTAS: :point_down:
                 if st.button('Gerar Carimbo'):
 
                     st.success('Carimbo Gerado com Sucesso!')
-                    exibir_respostas(Osx,ID_vantive,Técnico,Telefone,RE,Ciente,Tel,Gtd_Instalou_Rack,Informar_o_porque_o_rack_não_foi_instalado,Rack_instalado_é_telefonica_ou_cliente,O_espaço_no_rack_é_adequado,O_rack_está_proximo_da_lan_ou_servidor_do_cliente,Os_dijuntores_usados_são_compartilhados_ou_exclusivos,Os_dijuntores_usados_são_identificados,A_energia_elétrica_para_redundancia_é_distinta,Voltagem_127_ou_220,Possui_aterramento,A_rede_interna_foi_executada_ou_existente,Qual_tipo_de_cabeamento_ultilizado,Observação,Analista_ESSE)
-            def exibir_respostas(Osx,ID_vantive,Técnico,Telefone,RE,Ciente,Tel,Gtd_Instalou_Rack,Informar_o_porque_o_rack_não_foi_instalado,Rack_instalado_é_telefonica_ou_cliente,O_espaço_no_rack_é_adequado,O_rack_está_proximo_da_lan_ou_servidor_do_cliente,Os_dijuntores_usados_são_compartilhados_ou_exclusivos,Os_dijuntores_usados_são_identificados,A_energia_elétrica_para_redundancia_é_distinta,Voltagem_127_ou_220,Possui_aterramento,A_rede_interna_foi_executada_ou_existente,Qual_tipo_de_cabeamento_ultilizado,Observação,Analista_ESSE):
+                    exibir_respostas(Osx,ID_vantive,Técnico,Telefone,RE,Ciente,Tel,Gtd_Instalou_Rack,Informar_o_porque_o_rack_não_foi_instalado,Rack_instalado_é_telefonica_ou_cliente,O_espaço_no_rack_é_adequado,O_rack_está_proximo_da_lan_ou_servidor_do_cliente,Os_dijuntores_usados_são_compartilhados_ou_exclusivos,Os_dijuntores_usados_são_identificados,A_energia_elétrica_para_redundancia_é_distinta,Voltagem_127_ou_220,Possui_aterramento,A_rede_interna_foi_executada_ou_existente,Qual_tipo_de_cabeamento_ultilizado,Quantos_metros,Observação,Analista_ESSE)
+            def exibir_respostas(Osx,ID_vantive,Técnico,Telefone,RE,Ciente,Tel,Gtd_Instalou_Rack,Informar_o_porque_o_rack_não_foi_instalado,Rack_instalado_é_telefonica_ou_cliente,O_espaço_no_rack_é_adequado,O_rack_está_proximo_da_lan_ou_servidor_do_cliente,Os_dijuntores_usados_são_compartilhados_ou_exclusivos,Os_dijuntores_usados_são_identificados,A_energia_elétrica_para_redundancia_é_distinta,Voltagem_127_ou_220,Possui_aterramento,A_rede_interna_foi_executada_ou_existente,Qual_tipo_de_cabeamento_ultilizado,Quantos_metros,Observação,Analista_ESSE):
 
                 st.subheader('Respostas:')
 
@@ -460,6 +462,8 @@ CONSULTAS: :point_down:
                 st.write(f'A rede interna foi executada ou existente? {A_rede_interna_foi_executada_ou_existente}')
 
                 st.write(f'Qual tipo de cabeamento ultilizado? {Qual_tipo_de_cabeamento_ultilizado}')
+
+                 st.write(f'Quantos metros? {Quantos_metros}')
 
                 st.write(f'Observação: {Observação}')
 
