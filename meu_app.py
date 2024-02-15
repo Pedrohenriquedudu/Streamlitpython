@@ -35,11 +35,11 @@ def pagina_protegida():
 CONSULTAS: :point_down:
 ''') 
             st.link_button("Despacho Instalação", "https://drive.google.com/file/d/1utRUjjDKYST3wYd6E5BaD3XKYysge29T/view?usp=sharing")
-            st.link_button("Abertura de GAUS","https://drive.google.com/file/d/11n37sQPMdsT9si968UMbMLrxUKJU52FE/view?usp=sharing")
-            st.link_button("Abertura de Tiquete de Terceiros","https://drive.google.com/file/d/1sI98N18OZkTSUi58jV8IcXuSvobYNLYd/view?usp=sharing")
-            st.link_button("Acesso Datacenter","https://docs.google.com/document/d/1Qm1A4XrbWSSYSf18emOYdIAbkalFQWIo/edit?usp=sharing&ouid=115435742445522021005&rtpof=true&sd=true")
-            st.link_button("Codigos Vivo atualizado","https://docs.google.com/spreadsheets/d/1lP9Vh65qRj29UiJOnFbRXzIR7zPMI1JD/edit?usp=sharing&ouid=115435742445522021005&rtpof=true&sd=true")
-            st.link_button("Material - Despacho - EC","https://docs.google.com/document/d/1UEWoU5xbtroK_RxmHEmGwKFm_1Fm9jSg/edit?usp=sharing&ouid=115435742445522021005&rtpof=true&sd=true")
+            st.link_button("Abertura de GAUS","https://telefonicacorp-my.sharepoint.com/:b:/r/personal/madson_reis_telefonica_com/Documents/Arquivos%20de%20Chat%20do%20Microsoft%20Teams/Abertura%20de%20GAUS.pdf?csf=1&web=1&e=02KCtJ")
+            st.link_button("Abertura de Tiquete de Terceiros","https://telefonicacorp-my.sharepoint.com/:b:/r/personal/madson_reis_telefonica_com/Documents/Arquivos%20de%20Chat%20do%20Microsoft%20Teams/Abertura%20de%20Tiquete%20de%20Terceiros.pdf?csf=1&web=1&e=fHbWGy")
+            st.link_button("Acesso Datacenter","https://telefonicacorp-my.sharepoint.com/:w:/r/personal/madson_reis_telefonica_com/Documents/Arquivos%20de%20Chat%20do%20Microsoft%20Teams/Acesso%20Datacenter.docx?d=w368fe34130a04c5daf9dd2ec2bb242bd&csf=1&web=1&e=EyWJFD")
+            st.link_button("Codigos Vivo atualizado","https://telefonicacorp-my.sharepoint.com/:x:/r/personal/madson_reis_telefonica_com/Documents/Arquivos%20de%20Chat%20do%20Microsoft%20Teams/CODIGOS%20VIVO%20atualizado.xlsx?d=wdc9d4e2dda574e918505047243d0ffad&csf=1&web=1&e=ZRbOyv")
+            st.link_button("Material - Despacho - EC","https://telefonicacorp-my.sharepoint.com/:w:/r/personal/madson_reis_telefonica_com/Documents/Arquivos%20de%20Chat%20do%20Microsoft%20Teams/MATERIAL%20PASSO%20A%20PASSO%20-%20DESPACHO%20-%20EC.docx?d=wdf28d223d2f84589adb30cdfaa5e286c&csf=1&web=1&e=PfPUr1")
 
     class Deslocamento:
         def __init__(self):
