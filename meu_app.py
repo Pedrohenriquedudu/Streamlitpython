@@ -35,7 +35,7 @@ def pagina_protegida():
 CONSULTAS: :point_down:
 ''') 
             st.link_button("Despacho Instalação", "https://telefonicacorp-my.sharepoint.com/:p:/g/personal/pedro_hmartins_telefonica_com/EUsRE3AMTvJOlHiRTOfRFGQB-yfo3S55Or4V90rw83kgwA")
-            st.link_button("Abertura de GAUS","https://telefonicacorp-my.sharepoint.com/:u:/g/personal/pedro_hmartins_telefonica_com/EcG-mc2O0oFBiPBpUcD0qoMBGwYt6atjbea6cdn0_41QKg")
+            st.link_button("Abertura de GAUS","https://telefonicacorp-my.sharepoint.com/:u:/g/personal/pedro_hmartins_telefonica_com/EcG-mc2O0oFBiPBpUcD0qoMBWBDodVKJfXS8H6AEnFVtOA")
             st.link_button("Abertura de Tiquete de Terceiros","https://telefonicacorp-my.sharepoint.com/:u:/g/personal/pedro_hmartins_telefonica_com/EXVf5XMfHa1Gg2iOblfUcvEB-jAXUDSdEOpX-1CqOrYx5Q")
             st.link_button("Acesso Datacenter","https://telefonicacorp-my.sharepoint.com/:u:/g/personal/pedro_hmartins_telefonica_com/EYn_ausdegZCqiZ8yks-ougBfo4g_QUxDBwc1SG8OyhKew")
             st.link_button("Codigos Vivo atualizado","https://telefonicacorp-my.sharepoint.com/:u:/g/personal/pedro_hmartins_telefonica_com/EfS5ZNgYE4lKpRfJdpz99Q0B7s9DN1LtmfVkp_e5Kf8dLw")
