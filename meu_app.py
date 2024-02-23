@@ -363,7 +363,6 @@ CONSULTAS: :point_down:
 
             if __name__ == '__main__':
 
-
     class Ativação_SWT_Router:
         def __init__(self):
             self.titulo = "Ativação_SWT_Router"
