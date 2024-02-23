@@ -528,25 +528,25 @@ def main():
 
 
     if opcao_pagina == "Principal":
-            pagina =  Principal()
-        elif opcao_pagina == "Deslocamento":
-            pagina = Deslocamento()
-        elif opcao_pagina == "Abertura de Horario":
-            pagina = AberturadeHorario()
-        elif opcao_pagina == "Notificação":
-            pagina = Notificação()
-        elif opcao_pagina == "Baixa_DDR":
-            pagina = Baixa_DDR()
-        elif opcao_pagina == "Ativação_Gpon_Router":
-            pagina = Ativação_Gpon_Router()
-        elif opcao_pagina == "Ativação_Dslan_V35":
-            pagina = Ativação_Dslan_V35()
-        elif opcao_pagina == "Ativação_SWT_Router":
-         pagina = Ativação_SWT_Router()
-        elif opcao_pagina == "Ativação_Conversor":
-            pagina = Ativação_Conversor()
-        elif opcao_pagina == "Vistoria_Intragov":
-            pagina = Vistoria_Intragov()
+        pagina =  Principal()
+    elif opcao_pagina == "Deslocamento":
+        pagina = Deslocamento()
+    elif opcao_pagina == "Abertura de Horario":
+        pagina = AberturadeHorario()
+    elif opcao_pagina == "Notificação":
+        pagina = Notificação()
+    elif opcao_pagina == "Baixa_DDR":
+        pagina = Baixa_DDR()
+    elif opcao_pagina == "Ativação_Gpon_Router":
+        pagina = Ativação_Gpon_Router()
+    elif opcao_pagina == "Ativação_Dslan_V35":
+        pagina = Ativação_Dslan_V35()
+    elif opcao_pagina == "Ativação_SWT_Router":
+        pagina = Ativação_SWT_Router()
+    elif opcao_pagina == "Ativação_Conversor":
+        pagina = Ativação_Conversor()
+    elif opcao_pagina == "Vistoria_Intragov":
+        pagina = Vistoria_Intragov()
 
             pagina.mostrar()
 
