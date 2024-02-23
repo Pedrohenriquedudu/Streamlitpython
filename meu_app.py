@@ -521,8 +521,8 @@ CONSULTAS: :point_down:
 
                 formulario()
                 
- def main():
-    st.sidebar.title("Navegação")
+     def main():
+         st.sidebar.title("Navegação")
     opcao_pagina = st.sidebar.radio("Escolha um Carimbo", ["Principal","Deslocamento", "Abertura de Horario","Notificação","Baixa_DDR","Ativação_Gpon_Router","Ativação_Dslan_V35","Ativação_SWT_Router","Ativação_Conversor","Vistoria_Intragov"])
     
     if opcao_pagina == "Principal":
@@ -571,3 +571,5 @@ if "is_authenticated" in st.session_state:
             st.experimental_set_query_params(authenticated="true")
         else:
             st.error("Credenciais inválidas. Tente novamente.")
+
+    
