@@ -548,8 +548,8 @@ CONSULTAS: :point_down:
             
         pagina.mostrar()
                   
-            if __name__ == "__main__":
-                      main()
+    if __name__ == "__main__":
+            main()
     
 is_authenticated = False
 
