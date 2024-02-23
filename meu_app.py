@@ -427,10 +427,10 @@ CONSULTAS: :point_down:
                 Analista_ESSE = st.text_input('Analista_ESSE:')
 
                 if st.button('Gerar Carimbo'):
-                    
+
                     st.success('Carimbo Gerado com Sucesso!')
                     exibir_respostas(Osx,ID_vantive,Técnico,Telefone,RE,Ciente,Tel,Jumper_Central,Tipo_cordão,Metragem,Equipamento_Central,Hostname,Andar,Fila,Bastidor,Slot,Porta,Switch_Cliente,IP_SWT,Instalou_SFP,Modelo_SFP,Roteador,Serie,Rvt,Observação,Analista_ESSE)
-            def exibir_respostas(Osx,ID_vantive,Técnico,Telefone,RE,Ciente,Tel,Jumper_Central,Tipo_cordão,Metragem,Equipamento_Central,Hostname,Andar,Fila,Bastidor,Slot,Porta,Switch_Cliente,IP_SWT,Instalou_SFP,Modelo_SFP,Roteador,Serie,Rvt,Observação,Analista_ESSE):
+        def exibir_respostas(Osx,ID_vantive,Técnico,Telefone,RE,Ciente,Tel,Jumper_Central,Tipo_cordão,Metragem,Equipamento_Central,Hostname,Andar,Fila,Bastidor,Slot,Porta,Switch_Cliente,IP_SWT,Instalou_SFP,Modelo_SFP,Roteador,Serie,Rvt,Observação,Analista_ESSE):
 
                 st.subheader('Respostas:')
 
