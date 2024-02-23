@@ -547,8 +547,7 @@ def main():
             pagina = Vistoria_Intragov()
 
 pagina.mostrar()
-    
-    if __name__ == "__main__":
+     if __name__ == "__main__":
         main()
     
 
