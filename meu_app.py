@@ -666,7 +666,7 @@ CONSULTAS: :point_down:
         elif opcao_pagina == "Ativação_Dslan_V35":
             pagina = Ativação_Dslan_V35()
         elif opcao_pagina == "Ativação_SWT_Router":
-            pagina = Ativação_Dslan_V35()
+            pagina = Ativação_SWT_Router()
         elif opcao_pagina == "Ativação_Conversor":
             pagina = Ativação_Conversor()
         elif opcao_pagina == "Vistoria_Intragov":
