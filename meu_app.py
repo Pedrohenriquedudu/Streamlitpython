@@ -547,8 +547,7 @@ def main():
             pagina = Ativação_Conversor()
     elif opcao_pagina == "Vistoria_Intragov":
             pagina = Vistoria_Intragov()
-        
-pagina.mostrar()
+        pagina.mostrar()
 
 if __name__ == "__main__":
         main()
