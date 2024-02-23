@@ -545,9 +545,11 @@ CONSULTAS: :point_down:
             pagina = Ativação_Conversor()
         elif opcao_pagina == "Vistoria_Intragov":
             pagina = Vistoria_Intragov()
-    
-        if __name__ == "__main__":
-                 main()
+            
+            pagina.mostrar()
+            
+                if __name__ == "__main__":
+                     main()
     
 is_authenticated = False
 
