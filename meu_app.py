@@ -548,8 +548,7 @@ def main():
     elif opcao_pagina == "Vistoria_Intragov":
         pagina = Vistoria_Intragov()
 
-        pagina.mostrar()
-
+    pagina.mostrar()
     if __name__ == "__main__":
             main()
     
@@ -570,5 +569,6 @@ if is_authenticated:
     st.experimental_set_query_params(authenticated="true")
 else:
     st.error("Credenciais inválidas. Tente novamente.")
+        
     
         
