@@ -551,7 +551,7 @@ def main():
     pagina.mostrar()
 
     if __name__ == "__main__":
-        main()
+            main()
     
 
 is_authenticated = False
