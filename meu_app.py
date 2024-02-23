@@ -641,9 +641,9 @@ class Ativação_SWT_Router:
 
                 st.write(f'Analista_ESSE: {Analista_ESSE}')
 
-            if __name__ == '__main__':
+        if __name__ == '__main__':
 
-                formulario()
+              formulario()
 
  
     def main():
