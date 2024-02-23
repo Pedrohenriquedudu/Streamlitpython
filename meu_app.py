@@ -408,7 +408,7 @@ CONSULTAS: :point_down:
 
                 Slot = st.text_input('Slot:')
 
-                Porta: = st.text_input('Porta:')
+                Porta = st.text_input('Porta:')
 
                 Switch_Cliente = st.text_input('Switch_Cliente:')
 
