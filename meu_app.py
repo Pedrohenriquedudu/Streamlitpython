@@ -362,9 +362,9 @@ CONSULTAS: :point_down:
                 st.write(f'Analista_ESSE: {Analista_ESSE}')
 
             if __name__ == '__main__':
-
                 formulario()
-
+                
+    
     class Ativação_SWT_Router:
         def __init__(self):
             self.titulo = "Ativação_SWT_Router"
