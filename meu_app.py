@@ -554,22 +554,22 @@ def main():
             main()
     
 
-is_authenticated = False
+    is_authenticated = False
 
-if "is_authenticated" in st.session_state:
+    if "is_authenticated" in st.session_state:
             is_authenticated = st.session_state.is_authenticated
         
         # Se o usuário está autenticado, mostre a página protegida
-if is_authenticated:
-    pagina_protegida()
-else:
-    is_authenticated = login()
-if is_authenticated:
-    st.session_state.is_authenticated = True
+    if is_authenticated:
+        pagina_protegida()
+    else:
+        is_authenticated = login()
+    if is_authenticated:
+        st.session_state.is_authenticated = True
                 # Redirecione para a página protegida alterando os parâmetros da URL
-    st.experimental_set_query_params(authenticated="true")
-else:
-    st.error("Credenciais inválidas. Tente novamente.")
+        st.experimental_set_query_params(authenticated="true")
+    else:
+        st.error("Credenciais inválidas. Tente novamente.")
         
     
         
