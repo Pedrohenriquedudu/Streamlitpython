@@ -673,18 +673,19 @@ def main():
             pagina = Vistoria_Intragov()
         
         pagina.mostrar()
-if __name__ == "__main__":
+
+    if __name__ == "__main__":
         main()
     is_authenticated = False
 
-if "is_authenticated" in st.session_state:
+    if "is_authenticated" in st.session_state:
     is_authenticated = st.session_state.is_authenticated
 
 # Se o usuário está autenticado, mostre a página protegida
-if is_authenticated:
+    if is_authenticated:
     pagina_protegida()
-else:
-    is_authenticated = login()
+    else:
+        is_authenticated = login()
     if is_authenticated:
         st.session_state.is_authenticated = True
         # Redirecione para a página protegida alterando os parâmetros da URL
