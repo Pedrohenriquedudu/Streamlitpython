@@ -527,7 +527,6 @@ CONSULTAS: :point_down:
         def mostrar(self):
 
             st.title(self.titulo)
-
             # Adicione mais elementos à sua página inicial conforme necessário
 
             def formulario():
