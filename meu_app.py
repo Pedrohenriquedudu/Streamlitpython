@@ -566,7 +566,3 @@ else:
         st.session_state.is_authenticated = True
         # Redirecione para a página protegida alterando os parâmetros da URL
         st.experimental_set_query_params(authenticated="true")
-        st.write("Bem-vindo, " + username)
-    else:
-        st.error("Credenciais inválidas. Tente novamente.")
-        
