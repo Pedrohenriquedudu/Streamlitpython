@@ -552,8 +552,7 @@ def main():
                 main()
     
 
-
-    is_authenticated = False
+is_authenticated = False
         
     if "is_authenticated" in st.session_state:
             
