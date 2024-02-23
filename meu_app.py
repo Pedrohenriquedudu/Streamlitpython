@@ -659,7 +659,7 @@ CONSULTAS: :point_down:
  
     def main():
         st.sidebar.title("Navegação")
-        opcao_pagina = st.sidebar.radio("Escolha um Carimbo", ["Principal","Deslocamento", "Abertura de Horario","Notificação","Baixa_DDR","Ativação_Gpon_Router","Ativação_Dslan_V35","Ativação_Conversor","Vistoria_Intragov"])
+        opcao_pagina = st.sidebar.radio("Escolha um Carimbo", ["Principal","Deslocamento", "Abertura de Horario","Notificação","Baixa_DDR","Ativação_Gpon_Router","Ativação_Dslan_V35","Ativação_SWT_Router","Ativação_Conversor","Vistoria_Intragov"])
 
         if opcao_pagina == "Principal":
             pagina =  Principal()
