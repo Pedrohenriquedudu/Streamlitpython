@@ -546,10 +546,10 @@ CONSULTAS: :point_down:
         elif opcao_pagina == "Vistoria_Intragov":
             pagina = Vistoria_Intragov()
             
-            pagina.mostrar()
+        pagina.mostrar()
             
-            if __name__ == "__main__":
-                main()
+        if __name__ == "__main__":
+             main()
     
 is_authenticated = False
 
